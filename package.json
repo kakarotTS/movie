@@ -1,0 +1,21 @@
+{
+  "name": "node-movie",
+  "version": "1.0.0",
+  "description": "node实战",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "movie"
+  ],
+  "author": "TangShi",
+  "license": "ISC",
+  "dependencies": {
+    "co-views": "^2.1.0",
+    "koa": "^1.2.1",
+    "koa-logger": "^1.3.0",
+    "koa-router": "^5.4.0",
+    "swig": "^1.4.2"
+  }
+}
