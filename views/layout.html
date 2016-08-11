@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{title}}</title>
+	{% block head %}
+		{% include "./includes/head.html" %}
+	{% endblock %}
+</head>
+<body>
+	{% include "./includes/header.html" %}
+	{% block content %}{% endblock %}
+</body>
+</html>

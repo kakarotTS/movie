@@ -1,1 +1,52 @@
-new.html
+{% extends "../layout.html" %}
+{% block content %}
+<form class="form-horizontal">
+	<div class="form-group">
+		<label for="name" class="col-md-2 control-label">电影名字</label>
+		<div class="col-md-10">
+			<input type="text" class="form-control" placeholder="请输入电影名字"  id="name" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="doctor" class="col-md-2 control-label">导演</label>
+		<div class="col-md-10">
+			<input type="text" class="form-control" placeholder="请输入导演" id="doctor" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="country" class="col-md-2 control-label">国家</label>
+		<div class="col-md-10">
+			<input type="text" class="form-control" placeholder="请输入国家" id="country" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="language" class="col-md-2 control-label">语言</label>
+		<div class="col-md-10">
+			<input type="text" class="form-control" placeholder="请输入语言" id="language" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="year" class="col-md-2 control-label">上映年份</label>
+		<div class="col-md-10">
+			<input type="text" class="form-control" placeholder="请输入上映年份" id="year" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="summary" class="col-md-2 control-label">简介</label>
+		<div class="col-md-10">
+			<input type="text" class="form-control" placeholder="请输入电影简介" id="summary" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="poster" class="col-md-2 control-label">海报</label>
+		<div class="col-md-10">
+			<input type="text" class="form-control" placeholder="请输入海报" id="poster" />
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-md-10 col-md-offset-2">
+			<button type="submit" class="btn btn-primary">提交</button>
+		</div>
+	</div>
+</form>
+{% endblock %}

@@ -1,0 +1,25 @@
+{
+  "name": "movies",
+  "description": "node实战",
+  "main": "app.js",
+  "authors": [
+    "TangShi"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "movie"
+  ],
+  "homepage": "https://github.com/kakarotTS/movie",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "bootstrap": "^3.3.7"
+  }
+}
